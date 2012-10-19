@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+<div class="header">Company Name Here</div>
+
+
+<div class="container">
+
+<div class="leftside">
+
+  <div class="links_div"><a href="#">Link Text goes Here</a></div>
+  
+  <div class="links_div"><a href="#">Link Text goes Here</a></div>
+  
+  <div class="links_div"><a href="#">Link Text goes Here</a></div>
+  
+  <div class="links_div"><a href="#">Link Text goes Here</a></div>
+  
+  <div class="links_div"><a href="#">Link Text goes Here</a></div>
+  
+</div><!--========leftside div closed here========-->
+
+<div class="content_part">
+
+<div class="actual_content">
+
+<p>The Adobe Creative Suite 3 Video Workshop offers over 200 training videos covering a wide range of subjects for print, web, and video professionals. </p><br />
+
+<p>You can use the Adobe Video Workshop to learn about any Creative Suite 3 product. Many videos show you how to use Adobe applications together.</p>
+
+<p>The Adobe Creative Suite 3 Video Workshop offers over 200 training videos covering a wide range of subjects for print, web, and video professionals. </p><br />
+
+<p>You can use the Adobe Video Workshop to learn about any Creative Suite 3 product. Many videos show you how to use Adobe applications together.</p>
+
+<p>The Adobe Creative Suite 3 Video Workshop offers over 200 training videos covering a wide range of subjects for print, web, and video professionals. </p><br />
+
+<p>You can use the Adobe Video Workshop to learn about any Creative Suite 3 product. Many videos show you how to use Adobe applications together.</p>
+
+
+</div>
+
+</div><!--========content_part div closed here========-->
+
+<div class="rightside"><div class="links_div"><a href="#">Link Text goes Here</a></div>
+  
+  <div class="links_div"><a href="#">Link Text goes Here</a></div>
+  
+  <div class="links_div"><a href="#">Link Text goes Here</a></div>
+  
+  <div class="links_div"><a href="#">Link Text goes Here</a></div>
+  
+  <div class="links_div"><a href="#">Link Text goes Here</a></div></div><!--========rightside div closed here========-->
+
+</div><!--========container div closed here========-->
+
+
+<div class="footer">copy right @ company name.com All Rights Reserved.</div>
+
+
+
+</body>
+</html>

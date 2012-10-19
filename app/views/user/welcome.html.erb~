@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="app/assets/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+<div class="header">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCreative Reastaurant &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp logout</div>
+
+
+<div class="container">
+
+<div class="leftside">
+
+  <div class="img"></div>
+<%= image_tag "k10487920.jpg" %>
+
+  
+  
+  
+</div><!--========leftside div closed here========-->
+
+<div class="content_part">
+
+<div class="actual_content">
+
+<p> We are updating our site information at the moment but we will be back online very shortly.
+
+We apologise if this causes you any inconvenience.  </p><br />
+
+<p>Creative Restaurants is an independent consultancy led by people who have years of experience in running restaurants and who are passionate about good dining experiences and how they are created. This business's sole purpose is to help promote and support the creation, understanding and enjoyment of restaurants.</p>
+
+<p>The Adobe Creative Suite 3 Video Workshop offers over 200 training videos covering a wide range of subjects for print, web, and video professionals. </p><br />
+
+<p>You can use the Adobe Video Workshop to learn about any Creative Suite 3 product. Many videos show you how to use Adobe applications together.</p>
+
+<p>The Adobe Creative Suite 3 Video Workshop offers over 200 training videos covering a wide range of subjects for print, web, and video professionals. </p><br />
+
+<p>You can use the Adobe Video Workshop to learn about any Creative Suite 3 product. Many videos show you how to use Adobe applications together.</p>
+
+
+</div>
+
+</div><!--========content_part div closed here========-->
+
+<div class="rightside">
+  
+  <div class="links_div"><a href="/cousines/submit">Add items to couisne</a></div>
+  
+  <div class="links_div"><a href="/new/cousine">Add cousine</a></div>
+
+  
+  <div class="links_div"><a href="#">available items</a></div>
+  
+  </div><!--========rightside div closed here========-->
+
+</div><!--========container div closed here========-->
+
+
+<div class="footer">copy right @CreativeRestaurant.com All Rights Reserved.</div>
+
+
+
+</body>
+</html>

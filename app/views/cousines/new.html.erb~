@@ -1,0 +1,8 @@
+<%=form_for @cousine, :url=>"new" do |f|%>
+<div class="field">
+    <%= f.label :cousine %><br />
+    <%= f.text_field :cousine %>
+  </div>
+
+ <%=f.submit "submit"%>
+<% end %>

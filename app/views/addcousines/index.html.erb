@@ -1,0 +1,31 @@
+<h1>Listing addcousines</h1>
+
+<table>
+  <tr>
+    <th>Cousinename</th>
+    <th>Item</th>
+    <th>Location</th>
+    <th>Cost</th>
+    <th>Availabletime</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @addcousines.each do |addcousine| %>
+  <tr>
+    <td><%= addcousine.cousinename %></td>
+    <td><%= addcousine.item %></td>
+    <td><%= addcousine.location %></td>
+    <td><%= addcousine.cost %></td>
+    <td><%= addcousine.availabletime %></td>
+    <td><%= link_to 'Show', addcousine %></td>
+    <td><%= link_to 'Edit', edit_addcousine_path(addcousine) %></td>
+    <td><%= link_to 'Destroy', addcousine, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Addcousine', new_addcousine_path %>

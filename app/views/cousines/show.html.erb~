@@ -1,0 +1,32 @@
+
+<% @cousine.each do |c| %>
+<p>
+  <b>cousinename</b>
+  <%= c.cousinename %>
+</p>
+
+<p>
+  <b>location</b>
+  <%= c.location %>
+</p>
+
+<p>
+  <b>item:</b>
+  <%= c.itemname %>
+</p>
+
+<p>
+  <b>cost:</b>
+  <%= c.cost %>
+</p>
+<p>
+  <b>avialabletime:</b>
+  <%= c.availabletime %>
+</p>
+
+<p>
+  <b>image:</b>
+  <%= c.avatar %>
+</p>
+
+<% end %>

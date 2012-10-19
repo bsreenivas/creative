@@ -1,0 +1,9 @@
+class NewController < ApplicationController
+  def cousine
+  @news=New.new(params[:new])
+ @news.save
+  end
+ def login
+   @user=User.new
+  end
+end

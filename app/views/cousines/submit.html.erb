@@ -1,0 +1,29 @@
+<%=form_for @cousine, :url=>"submit" do |f|%>
+<div class="field">
+     <%= select_tag "cousinename", options_from_collection_for_select(@news, "cousine", "cousine") %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </div>
+  <div class="field">
+    <%= f.label :Item %><br />
+    <%= f.text_field :item %>
+  </div>
+  <div class="field">
+    <%= f.label :cost %><br />
+    <%= f.text_field :cost %>
+  </div>
+<div class="field">
+    <%= f.label :availabletime %><br />
+    <%= f.text_field :availabletime %>
+  </div>
+  <div class="field">
+    <%= f.label :uploadimage %><br />
+    <%= f.file_field :avatar %>
+  </div>
+  <div class="action">
+  <%=f.submit "submit"%>
+</div>
+<% end %>
+

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cousinename:</b>
+  <%= @addcousine.cousinename %>
+</p>
+
+<p>
+  <b>Item:</b>
+  <%= @addcousine.item %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @addcousine.location %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%= @addcousine.cost %>
+</p>
+
+<p>
+  <b>Availabletime:</b>
+  <%= @addcousine.availabletime %>
+</p>
+
+
+<%= link_to 'Edit', edit_addcousine_path(@addcousine) %> |
+<%= link_to 'Back', addcousines_path %>

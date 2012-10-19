@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cousinename: MyString
+  item: MyString
+  location: MyString
+  cost: 1
+  availabletime: 2012-10-01 13:46:15
+
+two:
+  cousinename: MyString
+  item: MyString
+  location: MyString
+  cost: 1
+  availabletime: 2012-10-01 13:46:15
